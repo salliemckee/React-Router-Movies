@@ -40,7 +40,7 @@ export default function App() {
         }
       />
 
-      <Route path={"/"}>
+      <Route exact path={"/"}>
         <MovieList movies={movieList} />
       </Route>
       <Route path={"/movies/:id"}>
